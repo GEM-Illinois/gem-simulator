@@ -1,23 +1,16 @@
-# Overview
+# gem_ws
+A catkin workspace for the development of UIUC's autonomous GEM Golf Car gazebo simulation environment 
 
-This repository contains code and documentation for the GEM Smart vehicle 
-developed by the research groups of Professors Katherine Driggs-Cambell and 
-Sayan Mitra. This project started in Summer 2019.
 
-# Modules
- * Lane detection
- * Pedestrian detection
- * GPS
- * Steering control 
- 
-# Active contributors
- * Peter Du
- * Katherine Driggs-Cambell
- * Qichao Gao (Vincent)
- * Tianqi Liu (Ted)
- * Sayan Mitra
- * Ke Xu (Richard)
- * David Young
 
-# Alumni
- * David Young
+## Requirements
+* Ubuntu 16.04
+* Gazebo 8+
+* ROS Kinetic 
+
+## Current Modules
+* Sensor Fusion - Combines LiDAR and Camera data (src/gemulator/src/sensorFusion)
+
+
+## Sources
+* [Velodyne LiDAR Package](https://bitbucket.org/DataspeedInc/velodyne_simulator/src/master/)

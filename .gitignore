@@ -18,3 +18,7 @@ main.tps
 main.xwm
 nomencl.ins
 nomencl.ist
+build/
+devel/
+*.pyc
+*.catkin_workspace
